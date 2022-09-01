@@ -1,0 +1,105 @@
+body {
+	text-align: center;
+	background: rgb(78, 186, 121);
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(7, 108, 63);
+}
+
+.calculator__screen {
+	width: 94%;
+	height: 90px;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 25px 0 10px 0;
+	background: rgb(88, 207, 136);
+	border-radius: 25px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.calculator__screen p {
+	margin: 5px;
+	max-width: 90%;
+}
+
+.calculator {
+	margin: auto;
+	background: rgb(170, 238, 197);
+	width: 600px;
+	height: 600px;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.calculator__buttons {
+	width: 500px;
+	margin: 0 15px 15px 15px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background: rgb(88, 207, 136);
+	padding: 35px 15px;
+	border-radius: 25px;
+}
+
+.btn {
+	border-radius: 50px;
+	border: none;
+	margin: 5px;
+	width: 80px;
+	height: 80px;
+	background: #169b5b;
+	color: aliceblue;
+	outline: none;
+	font-size: 45px;
+}
+
+.btn:active {
+    background: rgb(140, 240, 180);
+    -webkit-box-shadow: inset 0px 0px 5px rgb(140, 240, 180);
+    -moz-box-shadow: inset 0px 0px 5px rgb(140, 240, 180);
+    box-shadow: inset 0px 0px 5px rgb(140, 240, 180);
+		color: #169b5b;
+}
+
+.operator, .undo, .clear, .plus-minus {
+	background: rgb(7, 108, 63);
+}
+
+.res {
+	background: rgb(7, 108, 63);
+	width: 185px;
+	margin: 5px;
+}
+
+.memory {
+	width: 90%;;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.memory-btn {
+	border-radius: 25px;
+	border: none;
+	margin: 5px;
+	width: 55px;
+	height: 40px;
+	background: #169b5b;
+	color: rgb(213, 245, 233);
+	outline: none;
+	font-size: 20px;
+}
+
+.memory-btn:active {
+	background: rgb(140, 240, 180);
+	-webkit-box-shadow: inset 0px 0px 5px rgb(140, 240, 180);
+	-moz-box-shadow: inset 0px 0px 5px rgb(140, 240, 180);
+	box-shadow: inset 0px 0px 5px rgb(140, 240, 180);
+	color: #169b5b;
+}
